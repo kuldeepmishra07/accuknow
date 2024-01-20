@@ -19,6 +19,29 @@ pip install -r requirements.txt
 To test the functionalities using cURL, you can use the following commands. 
 Make sure your Django development server is running **python manage.py runserver**
 
+
+### OR to setup project using dockerfile 
+
+
+# mydrfproject Docker Setup
+
+This guide explains how to set up and run the Django project `mydrfproject` using Docker.
+
+## Prerequisites
+
+- Docker installed on your machine.
+
+## Build Docker Image
+
+Navigate to the project directory containing the Dockerfile and execute the following command to build the Docker image:
+
+```bash
+docker build -t mydrfproject .
+
+
+
+### Curl to Test Functionalities
+
 **Register a new user:**
 
 curl -X POST -H "Content-Type: application/json" -d '{"username": "testuser", "password": "testpassword", "email": "test@example.com"}' http://localhost:8000/api/register/
