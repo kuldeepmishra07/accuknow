@@ -66,7 +66,7 @@ def search_users(request):
         except ObjectDoesNotExist:
             return Response({'error': 'User not found'}, status=status.HTTP_404_NOT_FOUND)
     else:
-        users = CustomUser.objects.filter(name__icontains=keyword)[start:end]
+        users = CustomUser.objects.filter(username__icontains=keyword)[start:end]
         serializer = UserSerializer(users, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
