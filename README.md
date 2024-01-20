@@ -1,7 +1,6 @@
-# accuknox
-Social_media_project
 
-# Django Rest Framework User Authentication and Friendship API
+
+# Accuknox Django Rest Framework User Authentication and Friendship API
 
 This Django project provides a RESTful API for user authentication and managing friendships.
 
