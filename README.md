@@ -20,10 +20,10 @@ To test the functionalities using cURL, you can use the following commands.
 Make sure your Django development server is running **python manage.py runserver**
 
 
-### OR to setup project using dockerfile 
+# To setup project using dockerfile 
 
-
-# mydrfproject Docker Setup
+ 
+# Accuknox Project Docker Setup
 
 This guide explains how to set up and run the Django project `mydrfproject` using Docker.
 
