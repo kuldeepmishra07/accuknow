@@ -21,10 +21,7 @@ Make sure your Django development server is running **python manage.py runserver
 
 # To setup project using dockerfile 
 
- 
-# Accuknox Project Docker Setup
-
-This guide explains how to set up and run the Django project `mydrfproject` using Docker.
+Set up and run the Django project `mydrfproject` using Docker.
 
 ## Prerequisites
 
