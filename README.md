@@ -1,8 +1,23 @@
-# accuknow
+# accuknox
 Social_media_project
 
+# Django Rest Framework User Authentication and Friendship API
 
-To test the functionalities using cURL, you can use the following commands. Make sure your Django development server is running (python manage.py runserver), and replace http://localhost:8000 with the appropriate URL if your server is running on a different address.
+This Django project provides a RESTful API for user authentication and managing friendships.
+
+### Prerequisites
+
+- Python 3.x
+- Docker (optional, for containerization)
+
+### Installing Dependencies
+
+Install the required Python packages using pip:
+
+pip install -r requirements.txt
+
+To test the functionalities using cURL, you can use the following commands. 
+Make sure your Django development server is running **python manage.py runserver**
 
 **Register a new user:**
 
