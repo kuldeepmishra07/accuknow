@@ -35,8 +35,7 @@ This guide explains how to set up and run the Django project `mydrfproject` usin
 
 Navigate to the project directory containing the Dockerfile and execute the following command to build the Docker image:
 
-```bash
-docker build -t mydrfproject .
+docker build -t mydrfproject 
 
 
 
