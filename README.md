@@ -39,7 +39,7 @@ docker build -t mydrfproject
 
 
 
-### Curl to Test Functionalities
+# Curl to Test Functionalities
 
 **Register a new user:**
 
